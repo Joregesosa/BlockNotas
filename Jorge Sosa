@@ -11,3 +11,4 @@ git branch + "Nombre de la nueva rama"
 git merge  + Nombre dela rama con la que vas a unir
 git remote origin + url // Crea el enlace entre git and gighob 
 git push origin (Nombre de la rama) // envia la rama principal al gighob
+git pull origin master --allow-unrelated-histories
