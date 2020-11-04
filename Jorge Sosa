@@ -1,0 +1,11 @@
+git init  // Para Iniciar Git
+commint -m // Para Confirmar los Cambios 
+Cat "Nombre del archivo" // para leer archivo
+git add . //para agregar todo 
+git show "Nombre del archivo" // Para Mostrar Cambios Realizados
+git log "Nombre del Archivo" // para ver historial de modificaciones
+git diff + clave + clave // Se colocan las claves con que se van a comparar
+git reset + clave +  hard or soft // para volver a tras sin retorno
+git checkout + clave + nombre de archivo // sierve para volver atras con retorno
+git branch + "Nombre de la nueva rama"
+git merge  + Nombre dela rama con la que vas a unir
