@@ -12,3 +12,7 @@ git merge  + Nombre dela rama con la que vas a unir
 git remote origin + url // Crea el enlace entre git and gighob 
 git push origin (Nombre de la rama) // envia la rama principal al gighob
 git pull origin master --allow-unrelated-histories
+git config --global user.email "Correo que se usara" // asignar o cambiar Correo
+ssh-keygen -t rsa -b 4096 -C "joregesosa@gmail.com" // Crear llave de cifrado
+ssh-add /home/jorge/.ssh/id_rsa  // Agregar 
+eval $(ssh-agent -s)
