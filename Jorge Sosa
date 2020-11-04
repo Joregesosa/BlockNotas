@@ -19,3 +19,8 @@ eval $(ssh-agent -s)
 git remote set-url origin + nueva Url // Cambiar url del proyecto
 git commit -am "nota" // para no tener que hacer add y luego commit
 git pull origin "Nonbre de la rama"  // se usa para traer y fucionar todo desde githob a local
+git log --all // Mostrar todo las historia del proyecto
+git log all -- graph // para ver el mapeo de merge 
+git log all -- graph --decorated --oneline // organiza los logs de una manera mas legible
+alias + nombre de alias + "Comando" // crea alias para linea de codigos muy largas
+git  show-branch --all // Muestra las rammas 
