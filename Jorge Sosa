@@ -24,3 +24,4 @@ git log all -- graph // para ver el mapeo de merge
 git log all -- graph --decorated --oneline // organiza los logs de una manera mas legible
 alias + nombre de alias + "Comando" // crea alias para linea de codigos muy largas
 git  show-branch --all // Muestra las rammas 
+git clone + url // clonar proyecto desde githop
