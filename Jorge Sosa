@@ -32,3 +32,4 @@ git log --oneline // muestra cambios con claves abreviadas
 git commit --amend (Deben agregarse los cambios con "git add ." antes de ejecutar este comando) // Remienda un commit
 git reflog // muestra un informe de todos los commits aun cuando se elmino el archivo
 git grep -c + palabra // realiza busqueda de uso de palabra
+git log -s "Palabra que quiero buscar" // Realiza busqueda fuera de codigo
