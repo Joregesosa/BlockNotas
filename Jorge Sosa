@@ -25,3 +25,4 @@ git log all -- graph --decorated --oneline // organiza los logs de una manera ma
 alias + nombre de alias + "Comando" // crea alias para linea de codigos muy largas
 git  show-branch --all // Muestra las rammas 
 git clone + url // clonar proyecto desde githop
+git stash + Nombre nueva rama // Guarda en memoria la cambios que aun no han sido agregados o enviados 
