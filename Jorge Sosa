@@ -2,8 +2,8 @@ git init  // Para Iniciar Git
 commint -m // Para Confirmar los Cambios 
 Cat "Nombre del archivo" // para leer archivo
 git add . //para agregar todo 
-git show "Nombre del archivo" // Para Mostrar Cambios Realizados
-git log "Nombre del Archivo" // para ver historial de modificaciones
+git show  // Para Mostrar Cambios Realizados
+git log // para ver historial de modificaciones
 git diff + clave + clave // Se colocan las claves con que se van a comparar
 git reset + clave +  hard or soft // para volver a tras sin retorno
 git checkout + clave + nombre de archivo // sierve para volver atras con retorno
@@ -25,4 +25,7 @@ git log all -- graph --decorated --oneline // organiza los logs de una manera ma
 alias + nombre de alias + "Comando" // crea alias para linea de codigos muy largas
 git  show-branch --all // Muestra las rammas 
 git clone + url // clonar proyecto desde githop
-git stash + Nombre nueva rama // Guarda en memoria la cambios que aun no han sido agregados o enviados 
+git stash // Guarda en memoria la cambios que aun no han sido agregados o enviados 
+git stash branch + "nombre de branch" // Crea una nueva rama y deposita lo guardados con stash en esa rama
+git chery-pick + clave // fusiona un commit viejo con el Master 
+git log --oneline // muestra cambios con claves abreviadas 
