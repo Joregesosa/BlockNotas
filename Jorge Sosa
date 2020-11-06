@@ -29,3 +29,4 @@ git stash // Guarda en memoria la cambios que aun no han sido agregados o enviad
 git stash branch + "nombre de branch" // Crea una nueva rama y deposita lo guardados con stash en esa rama
 git chery-pick + clave // fusiona un commit viejo con el Master 
 git log --oneline // muestra cambios con claves abreviadas 
+git commit --amend (Deben agregarse los cambios con "git add ." antes de ejecutar este comando) // Remienda un commit
