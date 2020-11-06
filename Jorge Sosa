@@ -33,3 +33,6 @@ git commit --amend (Deben agregarse los cambios con "git add ." antes de ejecuta
 git reflog // muestra un informe de todos los commits aun cuando se elmino el archivo
 git grep -c + palabra // realiza busqueda de uso de palabra
 git log -s "Palabra que quiero buscar" // Realiza busqueda fuera de codigo
+git short log -sn // Muestra cuantos commit a realizados por cada colaborador
+git short log -sn --all // Muestra Todos los Commits incluso los borrados
+git blame -c + Nombre del archivo //Muestra quien realizo cada ajuste al archivo
